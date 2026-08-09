@@ -17,7 +17,7 @@
           "height": 1
         }
       ],
-      "biome": "minecraft:the_void",
+      "biome": "dreamland:alpha_memory_biome",
       "structure_overrides": []
     }
   }
