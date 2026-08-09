@@ -1,13 +1,20 @@
-<<<<<<< HEAD
-# dreamland
+# Dreamland
 
-## Setup
+Модификация для **Minecraft 1.20.1** на базе загрузчика **Fabric**.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+## 🌟 Описание
+Dreamland — страна снов и воспоминаний. Это загадочное мета-пространство, в котором есть семь слоёв. Игроку предстоит пройти каждый слой, прежде чем выбраться.
 
-## License
+## 🛠️ Требования и Установка
+Для работы мода необходимы:
+* **Minecraft 1.20.1**
+* **Fabric Loader**
+* **Fabric API**
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
-=======
-# dreamland-1.20.1fabric
->>>>>>> 971b8b2a2356baf5df980b2ce7e2dd9a012dc063
+### Инструкция:
+1. Скачайте и установите **Fabric Loader**.
+2. Поместите скачанный `.jar` файл мода и Fabric API в папку `.minecraft/mods`.
+3. Запустите игру через профиль Fabric.
+
+## 🐛 Нашли баг?
+Если вы столкнулись с ошибкой, пожалуйста, создайте обращение во вкладке **Issues** этого репозитория.
