@@ -25,9 +25,11 @@ public class Dreamland implements ModInitializer {
 
 		ModCreativeTabs.registerCreativeTabs();
 
+		ModDimensions.registerDimensions();
+
 		LOGGER.info("Hello Fabric world!");
 	}
-	
+
 	public static ResourceLocation id(String path) {
 		return new ResourceLocation(MOD_ID, path);
 	}

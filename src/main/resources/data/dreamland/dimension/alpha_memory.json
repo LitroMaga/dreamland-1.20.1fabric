@@ -1,0 +1,24 @@
+{
+  "type": "dreamland:alpha_memory_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "dreamland:alpha_cobblestone",
+          "height": 127
+        },
+        {
+          "block": "dreamland:alpha_grass_block",
+          "height": 1
+        }
+      ],
+      "biome": "minecraft:the_void",
+      "structure_overrides": []
+    }
+  }
+}
