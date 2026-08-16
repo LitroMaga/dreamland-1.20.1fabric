@@ -21,6 +21,10 @@ public class ModBlocks {
     public static final Block LIMB_BLOCK = registerBlock("limb_block", 
         new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK))); // копируем свойства блока травы
 
+        // Кастомный класс для предмета
+        public static final Item SLEEPING_PILLS = registerItem("sleeping_pills", 
+        new SleepingPillsItem(new Item.Properties().stacksTo(1))); // stacksTo(1) чтобы банка не стакалась
+
 
     // Вспомогательный метод для регистрации блока и его предмета
     private static Block registerBlock(String name, Block block) {
@@ -31,6 +35,11 @@ public class ModBlocks {
         
         // Регистрируем сам блок
         return Registry.register(BuiltInRegistries.BLOCK, id, block);
+    }
+
+    private static Item registerItem(String name, Item item) {
+        ResourceLocation id = new ResourceLocation("dreamland", name);
+        return Registry.register(BuiltInRegistries.ITEM, id, item);
     }
 
     // Метод для вызова в главном классе

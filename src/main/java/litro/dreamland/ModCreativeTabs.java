@@ -20,6 +20,7 @@ public class ModCreativeTabs {
                 output.accept(ModBlocks.ALPHA_GRASS_BLOCK);
                 output.accept(ModBlocks.ALPHA_COBBLESTONE);
                 output.accept(ModBlocks.LIMB_BLOCK);
+                output.accept(ModBlocks.SLEEPING_PILLS);
             })
             .build()
     );

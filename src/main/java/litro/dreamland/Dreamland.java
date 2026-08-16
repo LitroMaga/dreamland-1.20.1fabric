@@ -30,6 +30,7 @@ public class Dreamland implements ModInitializer {
 		ModDimensions.registerDimensions();
 
 		DreamlandStructures.registerStructures();
+		ModEvents.registerEvents();
 
 		LOGGER.info("Hello Fabric world!");
 	}
