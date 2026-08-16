@@ -3,7 +3,8 @@
 	"package": "litro.dreamland.client.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"ExampleClientMixin"
+		"ExampleClientMixin",
+		"InventoryScreenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
