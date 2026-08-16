@@ -18,6 +18,9 @@ public class ModBlocks {
     public static final Block ALPHA_GRASS_BLOCK = registerBlock("alpha_grass_block", 
         new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK))); // копируем свойства блока травы
 
+    public static final Block LIMB_BLOCK = registerBlock("limb_block", 
+        new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK))); // копируем свойства блока травы
+
 
     // Вспомогательный метод для регистрации блока и его предмета
     private static Block registerBlock(String name, Block block) {

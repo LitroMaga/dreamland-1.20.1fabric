@@ -19,6 +19,7 @@ public class ModCreativeTabs {
                 // 2. Перечисляем предметы, которые будут внутри этой вкладки
                 output.accept(ModBlocks.ALPHA_GRASS_BLOCK);
                 output.accept(ModBlocks.ALPHA_COBBLESTONE);
+                output.accept(ModBlocks.LIMB_BLOCK);
             })
             .build()
     );

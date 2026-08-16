@@ -1,0 +1,11 @@
+{
+  "alpha_memory_ambient": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "dreamland:alpha_memory_ambient",
+        "stream": true
+      }
+    ]
+  }
+}

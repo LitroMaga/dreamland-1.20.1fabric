@@ -6,6 +6,7 @@ import net.minecraft.resources.ResourceLocation;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import litro.dreamland.world.gen.structure.DreamlandStructures;
 
 public class Dreamland implements ModInitializer {
 	public static final String MOD_ID = "dreamland";
@@ -18,6 +19,7 @@ public class Dreamland implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModSounds.registerSounds();
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
@@ -27,8 +29,12 @@ public class Dreamland implements ModInitializer {
 
 		ModDimensions.registerDimensions();
 
+		DreamlandStructures.registerStructures();
+
 		LOGGER.info("Hello Fabric world!");
 	}
+
+	
 
 	public static ResourceLocation id(String path) {
 		return new ResourceLocation(MOD_ID, path);
