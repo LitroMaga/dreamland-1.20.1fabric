@@ -2,5 +2,27 @@
   "itemGroup.dreamland.dreamland_tab": "Dreamland: Альфа",
   "block.dreamland.alpha_grass_block": "Альфа Блок Травы",
   "block.dreamland.alpha_cobblestone": "Альфа Булыжник",
-  "item.dreamland.sleeping_pills": "Снотворное?"
+  "item.dreamland.sleeping_pills": "Снотворное?",
+  "item.dreamland.sleeping_pills.tooltip": "Погружает в глубокий сон...",
+
+  "menu.singleplayer": "время спать",
+  "menu.multiplayer": "тебе лучше одному...",
+  "menu.online": "недоступно?",
+  "menu.options": "параметры сна",
+  "menu.quit": "проснуться..",
+
+  "menu.game": "\u00A74\u00A7lDreamland",
+  "menu.returnToGame": "продолжить сон..",
+  "gui.achievements": "воспоминания",
+  "gui.stats": "мониторинг",
+  "menu.sendFeedback": "Undefined",
+  "menu.reportBugs": "проблема?",
+  "menu.shareToLan": "открыть мир снов..",
+
+  "menu.saveInLevel": "выйти из сна",
+  "menu.savingLevel": "выйти из сна",
+  "menu.quit.edu": "выйти из сна",
+  "menu.disconnect": "выйти из сна",
+
+  "container.crafting": "\u00A74NullException"
 }

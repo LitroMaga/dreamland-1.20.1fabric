@@ -2,5 +2,27 @@
   "itemGroup.dreamland.dreamland_tab": "Dreamland: Alpha",
   "block.dreamland.alpha_grass_block": "Alpha Grass Block",
   "block.dreamland.alpha_cobblestone": "Alpha Cobblestone",
-  "item.dreamland.sleeping_pills": "Sleeping pills?"
+  "item.dreamland.sleeping_pills": "Sleeping pills?",
+  "item.dreamland.sleeping_pills.tooltip": "Plunges into a deep sleep...",
+
+  "menu.singleplayer": "time to sleep",
+  "menu.multiplayer": "you're better off alone...",
+  "menu.online": "unavailable?",
+  "menu.options": "sleep parameters",
+  "menu.quit": "wake Up..",
+
+  "menu.game": "\u00A74\u00A7lDreamland",
+  "menu.returnToGame": "continue sleeping..",
+  "gui.advancements": "memories",
+  "gui.stats": "monitoring",
+  "menu.sendFeedback": "Null",
+  "menu.reportBugs": "issue?",
+  "menu.shareToLan": "open the dream world..",
+
+  "menu.saveInLevel": "leave dream",
+  "menu.savingLevel": "leave dream",
+  "menu.quit.edu": "leave dream",
+  "menu.disconnect": "leave dream",
+
+  "container.crafting": "\u00A74NullException"
 }

@@ -8,6 +8,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
+import java.util.List;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.TooltipFlag;
+import org.jetbrains.annotations.Nullable;
+import net.minecraft.ChatFormatting;
+
+
 public class SleepingPillsItem extends Item {
     public SleepingPillsItem(Properties properties) {
         super(properties);
@@ -28,5 +35,17 @@ public class SleepingPillsItem extends Item {
         }
 
         return InteractionResultHolder.sidedSuccess(itemStack, level.isClientSide());
+
+         
+
+    }
+
+    @Override
+    public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag flag) {
+        // Берём текст из JSON, красим в тёмно-красный (DARK_RED) и делаем курсивом (ITALIC)
+        tooltip.add(Component.translatable("item.dreamland.sleeping_pills.tooltip")
+                .withStyle(ChatFormatting.DARK_RED, ChatFormatting.ITALIC));
+        
+        super.appendHoverText(stack, level, tooltip, flag);
     }
 }
